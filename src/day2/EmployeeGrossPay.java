@@ -18,7 +18,7 @@ public class EmployeeGrossPay {
             workedHours = scanner.nextInt();
         }
         int grossPay =workedHours*rate;
-        System.out.println("your grossPay is "+grossPay+" $");
+        System.out.println("your grossPay  is "+grossPay+" $");
       scanner.close();
 
     }

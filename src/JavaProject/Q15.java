@@ -18,7 +18,7 @@ public class Q15 {
         numbers.add(3);
         numbers.add(4);
         numbers.remove(1);
-        System.out.println("the size of array is "+numbers.size());
+        System.out.println("The size of array is "+numbers.size());
         for (int i=0;i<numbers.size();i++){
             System.out.println(numbers.get(i));
         }

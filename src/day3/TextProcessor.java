@@ -19,9 +19,9 @@ public class TextProcessor {
             }
         }
         if (letterFound){
-            System.out.println("letter A is in position "+ position);
+            System.out.println("Letter A is in position "+ position);
         }else {
-            System.out.println("letter A not found");
+            System.out.println("Letter A not found");
         }
     }
 }

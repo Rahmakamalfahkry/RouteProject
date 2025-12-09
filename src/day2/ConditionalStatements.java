@@ -95,7 +95,7 @@ public class ConditionalStatements {
             case 5: System.out.println("thursday");break;
             case 6: System.out.println("friday");break;
             case 7: System.out.println("saturday");break;
-            default: System.out.println("invalid number");
+            default: System.out.println("invalid day number");
 
         }
 

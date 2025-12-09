@@ -55,7 +55,7 @@ public class Operators {
 
   // Condition or ternary operators ?:
         // var=exp?true:false
-     int a=30,b=20;
+     int a=40,b=30;
      int c= a>b ? a : b;
         System.out.println(c);
 

@@ -13,7 +13,7 @@ public class AddingTwoNumbers {
             double num2 = scanner.nextDouble();
             double sum = num1+num2;
             System.out.println("The sum of the two numbers is "+sum);
-            System.out.println("do you want to repeat again? (true / false )");
+            System.out.println("Do you want to repeat again? (true / false )");
              again = scanner.nextBoolean();
         }while (again);
         scanner.close();
