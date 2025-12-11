@@ -1,4 +1,4 @@
-package D1;
+package day1;
 
 public class FirstJavaProgram {
     public static void main(String[] args) {
