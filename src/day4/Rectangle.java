@@ -5,6 +5,24 @@ public class Rectangle {
     // 2 fields
     private double width;
     private double length;
+    private static int counter;
+
+    public static int getCounter() {
+        return counter;
+    }
+
+    public Rectangle(){// default constructor
+        System.out.println("I am default constructor");
+        length=20;
+        width=10;
+        counter++;
+    }
+    public Rectangle(double length,double width){ // parameterized constructor
+        System.out.println("I am parameterized constructor");
+        setLength(length);
+        setWidth(width);
+        counter++;
+    }
 
 // seters
     public void setLength(double length){
