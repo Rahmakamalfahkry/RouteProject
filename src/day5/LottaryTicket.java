@@ -12,6 +12,7 @@ public class LottaryTicket {
         int[] ticket = generateTicketNumber();
         Arrays.sort(ticket);
         printTicket(ticket);
+        System.out.println();
        int index = Arrays.binarySearch(ticket,10);
        if (index<0){
            System.out.println("element not found");

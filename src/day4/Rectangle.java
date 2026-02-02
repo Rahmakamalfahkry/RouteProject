@@ -3,8 +3,9 @@ package day4;
 public class Rectangle {
 
     // 2 fields
-    private double width;
-    private double length;
+    protected double width;
+    protected double length;
+    protected int sides =4;
     private static int counter;
 
     public static int getCounter() {
